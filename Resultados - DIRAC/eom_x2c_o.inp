@@ -1,0 +1,43 @@
+**DIRAC                                                                                             
+.TITLE                                                                                              
+h2o - x2c EOM-EE                                                                                  
+.WAVE FUNCTION                                                                                      
+.4INDEX                                                                                             
+**MOLECULE                                                                                          
+*BASIS                                                                                              
+.DEFAULT                                                                                            
+dyall.cv2z
+**HAMILTONIAN
+.X2C                                                                                             
+**WAVE FUNCTION                                                                                     
+.SCF                                                                                                
+.RELCCSD                                                                                            
+*SCF                                                                                                
+.MAXITR                                                                                             
+300  
+**INTEGRALS
+*READIN
+.UNCONTRACT                                                                                               
+**RELCCSD                                                                                                                                                                                            
+.ENERGY                                                                                             
+.EOMCC                                                                                              
+*EOMCC                                                                                              
+.EE                                                                                                 
+1 5                                                                                                 
+*CCENER                                                                                             
+.MAXIT                                                                                              
+100                                                                                                  
+.NOSDT                                                                                              
+*CCDIAG                                                                                             
+.MAXSIZE                                                                                            
+1024                                                                                                
+.MAXITER                                                                                            
+80                                                                                                  
+.OVERLAP                                                                                            
+*CCPROJ                                                                                             
+.CVS_CORE                                                                                           
+-19.47                                                                                               
+**MOLTRA                                                                                            
+.ACTIVE                                                                                             
+all                                                                                                 
+*END OF 
